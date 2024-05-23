@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#material-fields {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#vanilla-fields {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 19em 1fr;
+}
+
+button {
+  display: block;
+  font-size: 100%;
+  margin: 20px 0;
+  padding: 4px 8px;
+}
+
+fieldset {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+form {
+  width: 40em;
+}
+
+h1 {
+  font-size: 120%;
+}
+
+input {
+  border: 1px solid gray;
+  font-size: 100%;
+  padding: 4px 8px;
+}
+
+label {
+  align-self: center;
+}
+
+input.invalid {
+  border: 1px solid red;
+}
+
+label {
+  text-align: right;
+}

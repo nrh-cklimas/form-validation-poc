@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation POC</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Browser Native</legend>
+      <div id="native-form-root"></div>
+    </fieldset>
+    <fieldset>
+      <legend>react-hook-form</legend>
+      <p>
+        There are fewer fields here than above because this approach requires we
+        write custom validation messages in all cases.
+      </p>
+      <div id="react-hook-form-root"></div>
+    </fieldset>
+    <script src="./src/init.jsx" type="module"></script>
+  </body>
+</html>
